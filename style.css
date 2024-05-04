@@ -1,4 +1,6 @@
 body {
+    margin: 0;
+    padding: 0;
     font-family: "Poppins", sans-serif;
     /* background-color: #B3C8CF ; */
     color: white;
@@ -109,4 +111,10 @@ th {
 .detail-education{
     display: flex;
     gap: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+    section{
+        margin: 0 auto;
+    }
 }
