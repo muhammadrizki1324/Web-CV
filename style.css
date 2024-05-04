@@ -1,0 +1,112 @@
+body {
+    font-family: "Poppins", sans-serif;
+    /* background-color: #B3C8CF ; */
+    color: white;
+}
+
+section {
+    max-width: 800px;
+    margin: 2rem auto;
+    /* padding: 1rem; */
+    background-color: #222831;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(59, 43, 43, 0.1);
+}
+/* .About{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+} */
+.About h1{
+    color: #222831;
+    font-weight: 700;
+}
+
+.About h2{
+    background-color: #222831;
+}
+
+.About p{
+    color: #222831;
+}
+
+.information-child{
+    display: flex;
+    justify-content: center;
+}
+
+.information-child h3{
+    font-size: 20px;
+    color: #FFC700;
+}
+
+.information-child p{
+    font-size: 15px;
+}
+
+.information-child img{
+    margin-right: 10px;
+}
+
+.Brief p{
+    letter-spacing: 2px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+/* .button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #f2f2f2;
+    color: #333;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.button:hover {
+    background-color: #555;
+} */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Jarak antar elemen contact-detail */
+}
+.contact-detail {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Jarak antara img dan p */
+}
+
+.contact-detail p{
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+
+.container h2{
+    letter-spacing: 2px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+   font-size: 24px;
+}
+
+.social-media img{
+    width: 40px;
+    margin: 10px;
+}
+
+.detail-education{
+    display: flex;
+    gap: 2rem;
+}
