@@ -4,209 +4,199 @@
     Kelas       : IT 201;
     Mata Kuliah : Pemrograman Web
   -->
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Resume Cv</title>
-    <!-- Link javaScript -->
-    <script src="dist/sweetalert2.all.min.js"></script>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- Link style css -->
-    <link rel="stylesheet" href="style.css">
-    <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-   
-  </head>
-  <body>
-    <!-- script untuk prompt -->
-    <script>
-        let name = prompt("Masukkan nama anda!")
-        while(!name){
-         name = prompt("Masukkan nama anda!")
-        }
-    </script>
-    <section>
-        <!-- container one-->
-    <div class="container">
-        <!-- About me -->
-        <div class="row bg-warning">
-            <div class="col-12 col-sm-6 " style="padding-left:0 ; padding-right: 0;" >
-                <img src="img/my1.jpeg"  alt="" width="100%">
-            </div>
-            <div class="col-12 col-sm-6 align-self-center text-center  About">
-                <h1 >Muhammad Rizki</h1>
-                <h2 class=" text-warning  mb-4">IT DEVELOPER</h2>
-                <p><span class="fw-bold">I'M Muhammad Rizki </span>a Indonesian based IT Enthusiast focused on crafting clean & user-friendly experiences, I am passionate about building ex-cellent software that improves the lives of those around me.</p>
-            </div>
-        </div>
-    </div>
-    <!-- container two -->
-      <div class="container">
-        <!-- Information -->
-        <div class="information">
-            <div class="row mt-3">
-                <div class="col">
-                    <div class="information-child ">
-                        <img src="img/baby.png" alt="" width="50px" height="60px">
-                        <div>
-                            <h3 >DATE OF BIRTH</h3>
-                            <p>27 November 2004</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="information-child ">
-                        <img src="img/city.png" alt="" width="50px" height="60px">
-                        <div >
-                            <h3>City</h3>
-                            <p>Depok</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="information-child ">
-                        <img src="img/world.png" alt="" width="50px" height="60px">
-                        <div>
-                            <h3>NATIONALITY</h3>
-                            <p>Indonesian</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <hr class="bg-warning">
-        <!-- brief and  contact -->
-        <div class="brief-contact">
-            <div class="Brief">
-                <h3 class="fst-italic fs-3 fw-bold">"A brief explanation of the habits I like"</h3>
-                <p class="fw-light ">In my free time I will play games just for fun and I also like to watch films. When I have finished those two things, I will open the laptop just to look at programming community groups. I really enjoy seeing and interacting with people who have the same interests and can broaden my insight.</p>
-            </div>
-            <div class="contact">
-                <h2>Contact Me</h2>
-               <div class="contact-detail ">
-                    <img src="img/contact.png" alt="" width="30px">
-                    <p>+62 878 8015 2514</p>
-               </div>
-                <div class="contact-detail ">
-                    <img src="img/email.png" alt="" width="30px">
-                    <p>mhrizki515@gmail.com</p>
-                </div>
-            </div>
-        </div>
-        <!-- Project -->
-        <div class="project mt-3">
-            <h2>Project</h2>
-            <ul>
-                <li>Perancangan Web Data Santri Berbasis Laravel</li>
-                <li>Aplikasi Pembayaran Sekolah</li>
-            </ul>
-        </div>
-        <!-- skill -->
-        <div class="skill">
-            <h2>Skill</h2>
-            <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>JavaScript</li>
-                <li>PHP</li>
-                <li>Laravel</li>
-                <li>Mysql</li>
-            </ul>
-        </div>
-        <!-- education -->
-        <div class="education">
-            <h2>Education</h2>
-            <div class="detail-education">
-                <p class="text-warning">SMK TARUNA BHAKTI</p>
-                <P>2019-2023</P>
-            </div>
-            <div class="detail-education">
-                <p class="text-warning">Siber Asia University</p>
-                <P>2023-Now</P>
-            </div>
-        </div>
-        <!-- Tabel Ceritifitacion And course/training-->
-        <div class="certifitacion-Course">
-            <h2>Certification</h2>
-        <table>
-            <tr>
-                <th class="text-dark">Name</th>
-                <th class="text-dark">Issuing Organization</th>
-                <th class="text-dark">Issue Date</th>
-            </tr>
-            <tr>
-                <td>DataBases</td>
-                <td>Certiport</td>
-                <td>May, 2023</td>
-            </tr>
-            <tr>
-                <td>Certified Developer</td>
-                <td>Alibaba Cloud</td>
-                <td>Feb, 2023</td>
-            </tr>
-        </table>
-        <h2>Course/Training</h2>
-        <table>
-            <tr>
-                <th class="text-dark">Name</th>
-                <th class="text-dark">Issuing Organization</th>
-                <th class="text-dark">Issue Date</th>
-            </tr>
-            <tr>
-                <td>Fundamental Front-End Web</td>
-                <td>Coding Studio </td>
-                <td>Desember, 2023</td>
-            </tr>
-            <tr>
-                <td>Mahir membuat website dengan laravel 9</td>
-                <td>Coding Studio </td>
-                <td>Desember, 2023</td>
-            </tr>
-            <tr>
-                <td>Fundamental Algoritma</td>
-                <td>Coding Studio </td>
-                <td>Desember, 2023</td>
-            </tr>
-            <tr>
-                <td>Mahir membuat DB</td>
-                <td>Coding Studio </td>
-                <td>Desember, 2023</td>
-            </tr>
-            <tr>
-                <td>Beasiswa KodeBisat MEVN</td>
-                <td>Code Politan</td>
-                <td>Maret, 2024</td>
-            </tr>
-        </table>
-        </div>
-        <!-- Social Media -->
-        <div class="social-media">
-            <h2>Social Media</h2>
-            <a href="https://www.instagram.com/mhmmd_rizkyy___?igsh=MW8zeHhpbHZrcXp4dQ==">
-                <img src="img/instagram.png" alt="">
-            </a>
-            <a href="https://github.com/muhammadrizki1324">
-                <img src="img/platform.png" alt="">
-            </a>
-            <a href=" https://www.facebook.com/profile.php?id=100076873534602">
-                <img src="img/facebook.png" alt="">
-            </a>
-        </div>
-        <!-- <a href="#" class="button">Download CV</a> -->
-       </div>
-    </section>
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script>
-    Swal.fire(`Welcome ${name}!`)
-    </script>
-  </body>
-</html>
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>Resume Cv</title>
+      <!-- Link javaScript -->
+      <script src="dist/sweetalert2.all.min.js"></script>
 
+      <!-- Bootstrap CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+      <!-- Link style css -->
+      <link rel="stylesheet" href="style.css" />
+      <!-- Google Font -->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
+   </head>
+   <body>
+      <section>
+         <!-- container one-->
+         <div class="container">
+            <!-- About me -->
+            <div class="row bg-warning">
+               <div class="col-12 col-sm-6" style="padding-left: 0; padding-right: 0">
+                  <img src="img/my1.jpeg" alt="" width="100%" />
+               </div>
+               <div class="col-12 col-sm-6 align-self-center text-center About">
+                  <h1>Muhammad Rizki</h1>
+                  <h2 class="text-warning mb-4">IT DEVELOPER</h2>
+                  <p><span class="fw-bold">I'M Muhammad Rizki </span>a Indonesian based IT Enthusiast focused on crafting clean & user-friendly experiences, I am passionate about building ex-cellent software that improves the lives of those around me.</p>
+               </div>
+            </div>
+         </div>
+         <!-- container two -->
+         <div class="container">
+            <!-- Information -->
+            <div class="information">
+               <div class="row mt-3">
+                  <div class="col">
+                     <div class="information-child">
+                        <img src="img/baby.png" alt="" width="50px" height="60px" />
+                        <div>
+                           <h3>DATE OF BIRTH</h3>
+                           <p>27 November 2004</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col">
+                     <div class="information-child">
+                        <img src="img/city.png" alt="" width="50px" height="60px" />
+                        <div>
+                           <h3>City</h3>
+                           <p>Depok</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col">
+                     <div class="information-child">
+                        <img src="img/world.png" alt="" width="50px" height="60px" />
+                        <div>
+                           <h3>NATIONALITY</h3>
+                           <p>Indonesian</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <hr class="bg-warning" />
+            <!-- brief and  contact -->
+            <div class="brief-contact">
+               <div class="Brief">
+                  <h3 class="fst-italic fs-3 fw-bold">"A brief explanation of the habits I like"</h3>
+                  <p class="fw-light">In my free time I will play games just for fun and I also like to watch films. When I have finished those two things, I will open the laptop just to look at programming community groups. I really enjoy seeing and interacting with people who have the same interests and can broaden my insight.</p>
+               </div>
+               <div class="contact">
+                  <h2>Contact Me</h2>
+                  <div class="contact-detail">
+                     <img src="img/contact.png" alt="" width="30px" />
+                     <p>+62 878 8015 2514</p>
+                  </div>
+                  <div class="contact-detail">
+                     <img src="img/email.png" alt="" width="30px" />
+                     <p>mhrizki515@gmail.com</p>
+                  </div>
+               </div>
+            </div>
+            <!-- Project -->
+            <div class="project mt-3">
+               <h2>Project</h2>
+               <ul>
+                  <li>Perancangan Web Data Santri Berbasis Laravel</li>
+                  <li>Aplikasi Pembayaran Sekolah</li>
+               </ul>
+            </div>
+            <!-- skill -->
+            <div class="skill">
+               <h2>Skill</h2>
+               <ul>
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>JavaScript</li>
+                  <li>PHP</li>
+                  <li>Laravel</li>
+                  <li>Mysql</li>
+               </ul>
+            </div>
+            <!-- education -->
+            <div class="education">
+               <h2>Education</h2>
+               <div class="detail-education">
+                  <p class="text-warning">SMK TARUNA BHAKTI</p>
+                  <p>2019-2023</p>
+               </div>
+               <div class="detail-education">
+                  <p class="text-warning">Siber Asia University</p>
+                  <p>2023-Now</p>
+               </div>
+            </div>
+            <!-- Tabel Ceritifitacion And course/training-->
+            <div class="certifitacion-Course">
+               <h2>Certification</h2>
+               <table>
+                  <tr>
+                     <th class="text-dark">Name</th>
+                     <th class="text-dark">Issuing Organization</th>
+                     <th class="text-dark">Issue Date</th>
+                  </tr>
+                  <tr>
+                     <td>DataBases</td>
+                     <td>Certiport</td>
+                     <td>May, 2023</td>
+                  </tr>
+                  <tr>
+                     <td>Certified Developer</td>
+                     <td>Alibaba Cloud</td>
+                     <td>Feb, 2023</td>
+                  </tr>
+               </table>
+               <h2>Course/Training</h2>
+               <table>
+                  <tr>
+                     <th class="text-dark">Name</th>
+                     <th class="text-dark">Issuing Organization</th>
+                     <th class="text-dark">Issue Date</th>
+                  </tr>
+                  <tr>
+                     <td>Fundamental Front-End Web</td>
+                     <td>Coding Studio</td>
+                     <td>Desember, 2023</td>
+                  </tr>
+                  <tr>
+                     <td>Mahir membuat website dengan laravel 9</td>
+                     <td>Coding Studio</td>
+                     <td>Desember, 2023</td>
+                  </tr>
+                  <tr>
+                     <td>Fundamental Algoritma</td>
+                     <td>Coding Studio</td>
+                     <td>Desember, 2023</td>
+                  </tr>
+                  <tr>
+                     <td>Mahir membuat DB</td>
+                     <td>Coding Studio</td>
+                     <td>Desember, 2023</td>
+                  </tr>
+                  <tr>
+                     <td>Beasiswa KodeBisat MEVN</td>
+                     <td>Code Politan</td>
+                     <td>Maret, 2024</td>
+                  </tr>
+               </table>
+            </div>
+            <!-- Social Media -->
+            <div class="social-media">
+               <h2>Social Media</h2>
+               <a href="https://www.instagram.com/mhmmd_rizkyy___?igsh=MW8zeHhpbHZrcXp4dQ==">
+                  <img src="img/instagram.png" alt="" />
+               </a>
+               <a href="https://github.com/muhammadrizki1324">
+                  <img src="img/platform.png" alt="" />
+               </a>
+               <a href=" https://www.facebook.com/profile.php?id=100076873534602">
+                  <img src="img/facebook.png" alt="" />
+               </a>
+            </div>
+            <!-- <a href="#" class="button">Download CV</a> -->
+         </div>
+      </section>
+      <!-- Option 1: Bootstrap Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <script src="main.js"></script>
+   </body>
+</html>
